@@ -4,6 +4,9 @@
 
     require_once __DIR__.'/../../vendor/autoload.php';
 
+include 'params.php';$params = get_defined_vars();
+$latte = new Latte\Engine;$latte->setTempDirectory('temp');
+$latte->render('index.tpl', $params);
 
     use Phpcourse\Myproject\Classes\Controllers\AboutController;
     use Phpcourse\Myproject\Classes\Controllers\LoginController;
