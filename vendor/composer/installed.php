@@ -3,7 +3,7 @@
         'name' => 'phpcourse/myproject',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '38e3b23342df2ebea3d01061d979d19168b63263',
+        'reference' => '069607628a1519246c1aad8e33bacde3a2695b9a',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'phpcourse/myproject' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '38e3b23342df2ebea3d01061d979d19168b63263',
+            'reference' => '069607628a1519246c1aad8e33bacde3a2695b9a',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
